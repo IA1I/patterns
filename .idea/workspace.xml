@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/DigitalWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/DigitalWatchMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/RomeWatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/RomeWatchMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/Watch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/WatchMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/factorymethod/WatchType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/patterns/singleton/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/singleton/Test.class" afterDir="false" />
-    </list>
+    <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651853876290</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factory method">
+      <created>1651856651609</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651856651609</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Singleton" />
+    <MESSAGE value="Factory method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory method" />
   </component>
 </project>
