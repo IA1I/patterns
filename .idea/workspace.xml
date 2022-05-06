@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="Singleton">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/patterns/singleton/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/patterns/singleton/TestSingleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleton/TestSingleton.java" afterDir="false" />
+    <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/DigitalWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/DigitalWatchMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/RomeWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/RomeWatchMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/Watch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/WatchMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factorymethod/WatchType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/patterns/singleton/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/patterns/singleton/Test.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -47,7 +49,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factorymethod.Test" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.Test" />
       <module name="patterns" />
@@ -63,6 +78,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -78,7 +94,26 @@
       <option name="presentableId" value="Default" />
       <updated>1651851066293</updated>
     </task>
+    <task id="LOCAL-00001" summary="Singleton">
+      <created>1651853876290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651853876290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton" />
