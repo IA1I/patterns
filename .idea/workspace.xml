@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="" />
+    <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/abstractfactory/DigitalMetalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractfactory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractfactory/LeatherCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractfactory/MetalCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractfactory/RomeLeatherFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractfactory/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/abstractfactory/WatchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -38,13 +47,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factorymethod.Test" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractfactory.Test" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
@@ -97,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651856651609</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add gitignore">
+      <created>1651856878833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651856878833</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -105,7 +135,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -114,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Singleton" />
     <MESSAGE value="Factory method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory method" />
+    <MESSAGE value="Add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
   </component>
 </project>
