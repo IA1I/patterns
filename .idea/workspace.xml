@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/abstractfactory/DigitalMetalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractfactory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractfactory/LeatherCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractfactory/MetalCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractfactory/RomeLeatherFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractfactory/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/abstractfactory/WatchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/LeftBracketDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/PrinterInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/QuotesDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/RightBracketDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +46,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (3)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factorymethod.Test" />
       <module name="patterns" />
@@ -74,6 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.Test" />
+      <module name="patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleton.Test" />
       <module name="patterns" />
@@ -89,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
@@ -127,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651856878833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Abstract Factory">
+      <created>1651913885618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651913885618</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -147,6 +167,7 @@
     <MESSAGE value="Singleton" />
     <MESSAGE value="Factory method" />
     <MESSAGE value="Add gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
+    <MESSAGE value="Abstract Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory" />
   </component>
 </project>
