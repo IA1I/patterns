@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/adapter/RasterGraphics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/VectorAdapterFromRaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/VectorAdapterFromRaster2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/VectorGraphicsInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Key.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,7 +45,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
+  <component name="RunManager" selected="Application.Test (5)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="factorymethod.Test" />
       <module name="patterns" />
@@ -98,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.Test" />
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facade.Test" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651916629069</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adapter">
+      <created>1651922632925</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651922632925</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +196,7 @@
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="Abstract Factory" />
     <MESSAGE value="Decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator" />
+    <MESSAGE value="Adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter" />
   </component>
 </project>
