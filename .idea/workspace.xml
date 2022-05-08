@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6554237f-012d-4072-953e-a36a926f2ab1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/strategy/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/FullPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/HalfPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Grandchild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/InterfaceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/InterfaceClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/FireState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/FireState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/MoveState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/MoveState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/TransformerContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/TransformerContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/State/TransformerState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/TransformerState.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.Test" />
       <module name="patterns" />
@@ -64,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decorator.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Test" />
       <module name="patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="decorator.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (5)" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651935684237</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Strategy">
+      <created>1651936637008</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1651936637008</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,6 +243,7 @@
     <MESSAGE value="Facade" />
     <MESSAGE value="Observer" />
     <MESSAGE value="State" />
-    <option name="LAST_COMMIT_MESSAGE" value="State" />
+    <MESSAGE value="Strategy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strategy" />
   </component>
 </project>
